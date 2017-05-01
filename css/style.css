@@ -1,0 +1,222 @@
+/* CSS template */
+
+body {
+	width:  800px;
+    height: 1200px;
+    margin: auto;
+    background-color: red;
+	font-family: 'latoregular';
+	font-size: 23px;
+
+}
+
+.imgright{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.imgright {
+	float:right;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.gallery {
+    margin:  0px;
+	border: 1px solid #ccc;
+	width: 300px;
+	float: left;
+    position: relative;
+    left: 13%;
+}
+
+.gallery:hover {
+	border: 1px solid #777;
+}
+
+.gallery img {
+	text-align: center;
+    width: 100%;
+ } 
+
+
+.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+
+#header {
+	margin: 0 auto;
+	max-width:  960px;
+}
+
+
+#header h1 {
+   font-size: 45px;
+   font-weight: normal;
+   line-height: 45px;
+   margin: 0;
+   padding: 30px 0;
+   text-align: center;
+}
+
+#header ul#navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#header ul#navigation li {
+	display: inline;
+	line-height: 30px;
+	position: relative;
+}
+
+
+#header ul#navigation li {
+     font-size: 23px;
+     padding: 0 50px;
+     background-color: black;
+   
+}
+
+#header ul#navigation li a {
+	text-decoration: none;
+	color: red;
+}
+
+#header ul#navigation li a:hover,
+#header ul#navigation ul li a:hover {
+     color: white;
+}
+
+
+#header ul#nav {
+	list-style: none;
+	padding: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+#header ul#nav li {
+	display: inline;
+    position: relative;
+    padding: 0 40px;
+    font-size: 23px;
+}    
+
+
+#boption ul#back  {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+
+#section {
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+   top: 25%;
+   left: 25%;
+ 
+
+}
+#section  p.main {
+	font-family: 'nixe_oneregular';
+	font-family: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.contact_form #row{
+	margin: 0;
+	padding: 0;
+}
+
+.divTable {
+	display: table;
+	width: auto;
+	background-color: #eee;
+	border:1px solid #666666;
+	border-spacing: 5px;
+}
+
+.divRow{
+    display: table-row;
+    width: auto;
+   
+}
+
+.divCell {
+	float: left;
+	display: table-column;
+	width: 200px;
+	background-color: #ccc;
+}
+
+
+.airlogo{
+	float:right;
+    margin-right: 9px;
+    margin-top: 0;
+    padding: 9px;
+
+}
+
+
+.abtimage {
+	float:right;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.container p {
+	text-align: center;	
+}
+
+
+
+.imgfooter img {
+ 	background-repeat: no-repeat;
+ 	background-position: left 95%;
+	height: 34px;
+
+}
+
+
+#footer {
+	font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0;
+    padding: 20px 0;
+	text-align: center;
+}
+
+
+#msgcontact ul li {
+	list-style: none;
+	display: inline;
+	
+}
+#msgcontact  ul {
+   margin: 10px;
+   padding: 10px;
+   margin-left: 0px;
+   padding-left: 0px;
+
+}
+
+
