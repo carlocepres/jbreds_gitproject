@@ -174,16 +174,16 @@ body {
 
 }
 
-
-.abtimage {
-	float:right;
-    margin-right: 10px;
-    margin-top: 20px;
-    padding: 10px;
+.abtimage img {
+     display: block;
+     margin: 0 auto;
+     width: 40%;
+     
 }
 
-.container p {
+.abtimage p {
 	text-align: center;	
+	margin: 0 auto;
 }
 
 
