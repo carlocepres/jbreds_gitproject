@@ -135,7 +135,7 @@ body {
 	font-family: 23px;
 	font-weight: normal;
 	line-height: 23px;
-	text-align: center;
+	text-align: justify;
 	margin: 10px;
 	padding: 10px;
     margin-bottom: 40px;
@@ -204,7 +204,8 @@ body {
 .text-set-holder span {
 	font-size: 23px;
 	display: block;
-	font-weight: normal;
+ 	font-weight: normal;
+ 	text-align: justify;
 
 }
 
