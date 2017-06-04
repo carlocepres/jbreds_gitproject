@@ -209,45 +209,50 @@ body {
 
 }
 
-
-.imgfooter {
-
-	margin: 5px;
-	padding: 5px;
+.footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100px;
 }
 
-.imgfooter img {
+
+.footer img {
 	height: 50px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 20px;
+	margin: 0 auto;
 
 }
 
-
-#footer {
+.footer span {
+	text-align: center;
 	font-size: 18px;
-    font-weight: normal;
-    line-height: 18px;
-    text-align: center;
+	font-weight: normal;
 }
-
-
-
 
 
 #msgcontact ul li {
 	list-style: none;
 	display: inline;
-	
+
 }
+
 #msgcontact  ul {
    margin: 10px;
    padding: 10px;
    margin-left: 0px;
    padding-left: 0px;
 
+}
+
+
+#msgcontact a {
+	text-decoration: none;
+}
+#msgcontact span {
+	font-size: 20px;
+	font-weight: normal;
 }
 
 
