@@ -25,6 +25,8 @@ body {
     
 }
 
+/* gallery.html css code */
+
 .gallery {
     margin:  0px;
 	border: 1px solid #ccc;
@@ -34,8 +36,9 @@ body {
     left: 13%;
 }
 
-.gallery:hover 
+.gallery:hover {
 	border: 1px solid #777;
+}
 }
 
 .gallery img {
@@ -49,6 +52,8 @@ body {
 	text-align: center;
 }
 
+
+/* -------------------- */
 
 #header {
 	margin: 0 auto;
@@ -209,12 +214,12 @@ body {
 
 }
 
+/* footer index css style */
+
 .footer {
-   position: fixed;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   height: 100px;
+  float: left;
+  padding: 15px 0;
+  width: 100%
 }
 
 
@@ -227,10 +232,78 @@ body {
 
 .footer span {
 	text-align: center;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: normal;
 }
 
+
+
+/* gallery footer css style */
+
+
+.g-footer {
+	float: left;
+	padding: 15px 0;
+	width: 100%
+}
+
+.g-footer img {
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.g-footer p {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/* about footer css style */
+
+.a-footer {
+	float: left;
+	padding: 15px 0;
+	width: 100%
+}
+
+.a-footer img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.a-footer  p {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+/* footer contact css style */
+
+
+.c-footer{
+	float: left;
+	padding: 15px 0;
+	width: 100%;
+}
+
+
+.c-footer img {
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.c-footer p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+}
 
 #msgcontact ul li {
 	list-style: none;
@@ -250,8 +323,9 @@ body {
 #msgcontact a {
 	text-decoration: none;
 }
+
 #msgcontact span {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: normal;
 }
 
