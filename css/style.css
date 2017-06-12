@@ -2,10 +2,11 @@
 
 body {
 	width:  800px;
-    height: 1200px;
+    height: 1000px;
     margin: auto;
-    background: red;
-	font-family: 'latoregular';
+    background-image:url("jordan-airness.jpg");
+    background-size: 1800px;
+    background-position: fixed;
 	font-size: 23px;
 
 }
@@ -50,6 +51,9 @@ body {
 .desc {
 	padding: 15px;
 	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	color: white;
 }
 
 
@@ -63,10 +67,11 @@ body {
 
 #header h1 {
    font-size: 45px;
-   font-weight: normal;
+   font-style: italic;
    line-height: 45px;
    margin: 0;
    padding: 30px 0;
+   color: red;
    text-align: center;
 }
 
@@ -132,7 +137,7 @@ body {
    margin: 10px;
    top: 25%;
    left: 25%;
- 
+   
 
 }
 #section  p.main {
@@ -144,12 +149,21 @@ body {
 	margin: 10px;
 	padding: 10px;
     margin-bottom: 40px;
+    color: white;
 }
 
+/* contact html page - css style */
 
 .contact_form #row{
 	margin: 0;
 	padding: 0;
+}
+
+
+label {
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
 }
 
 .divTable {
@@ -158,11 +172,13 @@ body {
 	background-color: #eee;
 	border:1px solid #666666;
 	border-spacing: 5px;
+
 }
 
 .divRow{
     display: table-row;
     width: auto;
+
    
 }
 
@@ -184,8 +200,9 @@ body {
 
 
 .holder {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
+	
 }
 
 
@@ -211,15 +228,19 @@ body {
 	display: block;
  	font-weight: normal;
  	text-align: justify;
-
+    color: white;
 }
 
 /* footer index css style */
 
 .footer {
-  float: left;
-  padding: 15px 0;
-  width: 100%
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   height: 77px;
+   padding: 10px;
+   width: 100%;
+   background: red;
 }
 
 
@@ -230,10 +251,12 @@ body {
 
 }
 
-.footer span {
+.footer p {
+    color: white;
 	text-align: center;
 	font-size: 15px;
 	font-weight: normal;
+
 }
 
 
@@ -242,9 +265,13 @@ body {
 
 
 .g-footer {
-	float: left;
-	padding: 15px 0;
-	width: 100%
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   height: 77px;
+   padding: 10px;
+   width: 100%;
+   background: red;
 }
 
 .g-footer img {
@@ -257,15 +284,20 @@ body {
     font-size: 15px;
     font-weight: normal;
     text-align: center;
+    color: white;
 }
 
 
 /* about footer css style */
 
 .a-footer {
-	float: left;
-	padding: 15px 0;
-	width: 100%
+  position: fixed;
+   left: 0;
+   bottom: 0px;
+   padding: 10px;
+   height: 77px;
+   width: 100%;
+   background: red;
 }
 
 .a-footer img {
@@ -279,6 +311,7 @@ body {
     font-size: 15px;
     font-weight: normal;
     text-align: center;
+    color: white;
 }
 
 
@@ -287,9 +320,13 @@ body {
 
 
 .c-footer{
-	float: left;
-	padding: 15px 0;
-	width: 100%;
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   padding: 10px;
+   height: 77px;
+   width: 100%;
+   background: red;
 }
 
 
@@ -303,6 +340,7 @@ body {
 	text-align: center;
 	font-size: 15px;
 	font-weight: normal;
+	color: white;
 }
 
 #msgcontact ul li {
@@ -327,6 +365,7 @@ body {
 #msgcontact span {
 	font-size: 15px;
 	font-weight: normal;
+	color: white;
 }
 
 
