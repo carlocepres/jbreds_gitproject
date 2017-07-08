@@ -13,7 +13,7 @@ body {
 
 
 
-.imgright{
+.imgright {
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -25,6 +25,12 @@ body {
     padding: 10px;
     
 }
+
+.imgright img {
+	width: 200px;
+	height: 200px;
+}
+
 
 /* gallery.html css code */
 
@@ -61,7 +67,7 @@ body {
 
 #header {
 	margin: 0 auto;
-	max-width:  960px;
+	max-width:  950px;
 }
 
 
@@ -144,6 +150,7 @@ body {
 	font-family: 'nixe_oneregular';
 	font-family: 23px;
 	font-weight: normal;
+	font-size: 18px;
 	line-height: 23px;
 	text-align: justify;
 	margin: 10px;
@@ -224,7 +231,7 @@ label {
 }
 
 .text-set-holder span {
-	font-size: 23px;
+	font-size: 18px;
 	display: block;
  	font-weight: normal;
  	text-align: justify;
